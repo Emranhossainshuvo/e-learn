@@ -1,3 +1,4 @@
+import Slider from "@/components/Helper/Slider";
 import { BsQuote } from "react-icons/bs";
 
 const Review = () => {
@@ -20,7 +21,7 @@ const Review = () => {
                             </div>
                     </div>
                     <div className="xl:col-span-2 bg-white rounded-lg overflow-hidden">
-                        
+                        <Slider />
                     </div>
                 </div>
             </div>
